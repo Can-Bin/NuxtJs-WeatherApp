@@ -65,7 +65,6 @@
     methods:{
        async getData(){
             await fetch (`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&appid=${this.apiKey}&units=metric`)
-            // await fetch (`https://api.openweathermap.org/data/2.5/forecast?q=${this.city}&appid=${this.apiKey}`)
             .then(res=> res.json())
             .then((data) => {
               if(data.cod == 200){
