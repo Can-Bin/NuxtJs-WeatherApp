@@ -57,7 +57,7 @@
     data () {
       return {
         weatherResults: [],
-        apiKey: 'eea24203c4b2ebef1cba2c2e33c74f65',
+        apiKey: process.env.weatherAppId,
         city:''
       }
     },

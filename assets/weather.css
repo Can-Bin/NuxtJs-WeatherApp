@@ -8,13 +8,14 @@
   .weather-container{
       background: rgb(31,37,98);
       background: linear-gradient(0deg, rgba(31,37,98,1) 0%, rgba(24,237,246,1) 100%);
+      min-height: 100vh;
       height: 100%;
       display: block;
   }
 
   .header{
       text-align: center;
-      padding-top: 1rem;
+      padding-top: 0.5rem;
   }
 
   .heading{
@@ -26,7 +27,7 @@
   }
 
   .form-container{
-      margin: 2rem;
+      margin: 0.5rem;
   }
 
   .weather-form{
@@ -82,7 +83,6 @@
   .sun-img {
     width: 200px;
     height: auto;
-    margin-top: 0.5rem;
     transition: all 2s;
     animation: rotation 10s infinite linear;
   }
@@ -108,7 +108,7 @@
   }
 
   .data-container {
-    margin: 70px 0 20px;
+    margin: 20px 0 ;
   }
 
   .data-container .cities {
